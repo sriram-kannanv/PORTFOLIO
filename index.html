@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Java Backend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Portfolio<span>.</span></a>
+        <div class="nav-controls">
+            <div class="theme-btn" id="theme-toggle">
+                <i class='bx bx-moon'></i>
+            </div>
+            <i class='bx bx-menu' id="menu-icon"></i>
+        </div>
+        <nav class="navbar">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#education" class="nav-link">Education</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="home" id="home">
+            <div class="home-content hidden">
+                <h3 class="subtitle">Hello, I'm</h3>
+                <h1 class="title">Sriram K</h1>
+                <h3 class="text-animation">And I'm a <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+                </h3>
+                <p>A passionate computer science and business systems student and developer, exploring java backend development,
+                    system architecture, and new technologies. Always eager to learn and create elegant solutions.</p>
+                <div class="social-icons">
+                    <a href="https://github.com/sriram-kannanv" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/sriram-kannanv/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:srksriramsglk@gmail.com"><i class='bx bx-envelope'></i></a>
+                </div>
+                <div class="btn-group">
+                    <a href="resume.pdf" class="btn" download>Download Resume</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="home-img hidden delay-1">
+                <div class="img-box glass-card">
+                    <img src="assets/f25885c5-9153-41d9-adab-94d56b89f6fb.jpg" alt="SRIRAM K">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <h2 class="heading hidden">About <span>Me</span></h2>
+            <div class="about-container glass-card hidden delay-1">
+                <div class="about-content">
+                    <h3>Professional Summary</h3>
+                    <p>Highly motivated and detail-oriented Computer Science student with a strong foundation in
+                        software engineering and web development. Adept at building responsive, scalable, and
+                        user-friendly applications.</p>
+                    <h3 class="mt-4">Career Objective</h3>
+                    <p>To leverage my technical skills and passion in a dynamic software engineering role where I can
+                        contribute to impactful projects, collaborate, and grow as a developer.</p>
+                    <div class="strengths mt-4">
+                        <h3>Key Strengths</h3>
+                        <ul class="strengths-list">
+                            <li><i class='bx bx-check-circle'></i> Clean & maintainable code</li>
+                            <li><i class='bx bx-check-circle'></i> Problem solving</li>
+                            <li><i class='bx bx-check-circle'></i> Continuous learning</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education" id="education">
+            <h2 class="heading hidden">My <span>Education</span></h2>
+            <div class="timeline">
+                <div class="timeline-item hidden delay-1">
+                    <div class="glass-card">
+                        <div class="timeline-dot"></div>
+                        <h3>B.Tech in Computer Science and Business Systems</h3>
+                        <h4>Vel Tech Multi Tech Dr. Rangarajan Dr. Sakunthala Engineering College,<br> affiliated to Anna University</h4>
+                        <span class="duration"><i class='bx bx-calendar'></i> 2023 - Present</span>
+                        <p class="cgpa">CGPA: 9.13 / 10.0</p>
+                    </div>
+                    <div class="glass-card">
+                        <div class="timeline-dot"></div>
+                        <h3>Class XII</h3>
+                        <h4>Kendriya Vidyalaya HVF</h4>
+                        <span class="duration"><i class='bx bx-calendar'></i> 2022 - 2023</span>
+                        <p class="cgpa">Percentage: 84.4</p>
+                    </div>
+                    <div class="glass-card">
+                        <div class="timeline-dot"></div>
+                        <h3>Class X</h3>
+                        <h4>Kendriya Vidyalaya HVF</h4>
+                        <span class="duration"><i class='bx bx-calendar'></i> 2020 - 2021</span>
+                        <p class="cgpa">Percentage: 95.8</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills" id="skills">
+            <h2 class="heading hidden">My <span>Skills</span></h2>
+            <div class="skills-container">
+                <div class="glass-card skill-category hidden delay-1">
+                    <h3><i class='bx bx-code-alt'></i> Languages</h3>
+                    <div class="skills-list">
+                        <span class="pill">Java</span>
+                        <span class="pill">Python</span>
+                        <span class="pill">C</span>
+                        <span class="pill">JavaScript</span>
+                    </div>
+                </div>
+                <div class="glass-card skill-category hidden delay-2">
+                    <h3><i class='bx bx-laptop'></i>Java Backend</h3>
+                    <div class="skills-list">
+                        <span class="pill">Springboot</span>
+                        <span class="pill">JPA/Hibernate</span>
+                        <span class="pill">REST APIs</span>
+                    </div>
+                </div>
+                <div class="glass-card skill-category hidden delay-3">
+                    <h3><i class='bx bx-data'></i> Databases</h3>
+                    <div class="skills-list">
+                        <span class="pill">MySQL</span>
+                        <span class="pill">Firebase</span>
+                    </div>
+                </div>
+                <div class="glass-card skill-category hidden delay-4">
+                    <h3><i class='bx bx-wrench'></i> Tools</h3>
+                    <div class="skills-list">
+                        <span class="pill">Git</span>
+                        <span class="pill">GitHub</span>
+                        <span class="pill">VS Code</span>
+                        <span class="pill">Android Studio</span>
+                    </div>
+                </div>
+                <div class="glass-card skill-category hidden delay-5">
+                    <h3><i class='bx bx-group'></i> Soft Skills</h3>
+                    <div class="skills-list">
+                        <span class="pill">Communication</span>
+                        <span class="pill">Teamwork</span>
+                        <span class="pill">Problem Solving</span>
+                        <span class="pill">Leadership</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <h2 class="heading hidden">Featured <span>Projects</span></h2>
+            <div class="projects-container">
+                <article class="glass-card project-card hidden delay-1">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80"
+                            alt="E-Commerce">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A comprehensive e-commerce solution with catalogs and checkout.</p>
+                        <div class="tech-stack">
+                            <span class="pill">HTML</span>
+                            <span class="pill">CSS</span>
+                            <span class="pill">JS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm"><i class='bx bxl-github'></i> GitHub</a>
+                            <a href="#" class="btn btn-secondary btn-sm"><i class='bx bx-link-external'></i> Demo</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="glass-card project-card hidden delay-2">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=600&q=80"
+                            alt="Task Tracker">
+                    </div>
+                    <div class="project-info">
+                        <h3>Task Tracker</h3>
+                        <p>Modern responsive task management app.</p>
+                        <div class="tech-stack">
+                            <span class="pill">JavaScript</span>
+                            <span class="pill">DOM</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm"><i class='bx bxl-github'></i> GitHub</a>
+                            <a href="#" class="btn btn-secondary btn-sm"><i class='bx bx-link-external'></i> Demo</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="glass-card project-card hidden delay-3">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1607799279861-4dd40b9048a9?auto=format&fit=crop&w=600&q=80"
+                            alt="Dashboard">
+                    </div>
+                    <div class="project-info">
+                        <h3>Weather Dashboard</h3>
+                        <p>A dynamic weather forecasting tool using real-time API.</p>
+                        <div class="tech-stack">
+                            <span class="pill">JavaScript</span>
+                            <span class="pill">REST API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm"><i class='bx bxl-github'></i> GitHub</a>
+                            <a href="#" class="btn btn-secondary btn-sm"><i class='bx bx-link-external'></i> Demo</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Internship Section -->
+        <section class="experience" id="experience">
+            <h2 class="heading hidden">My <span>Experience</span></h2>
+            <div class="timeline">
+                <div class="timeline-item hidden delay-1">
+                    <div class="glass-card">
+                        <div class="timeline-dot"></div>
+                        <h3>Frontend Developer Intern</h3>
+                        <h4>TechNova Solutions</h4>
+                        <span class="duration"><i class='bx bx-calendar'></i> Jun 2023 - Aug 2023</span>
+                        <ul class="responsibilities-list mt-4">
+                            <li><i class='bx bx-check'></i> Developed user widgets using HTML/CSS.</li>
+                            <li><i class='bx bx-check'></i> Ensured cross-browser compatibility.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section class="achievements" id="achievements">
+            <h2 class="heading hidden">Key <span>Achievements</span></h2>
+            <div class="achievements-grid">
+                <div class="glass-card achievement-card hidden delay-1">
+                    <i class='bx bx-trophy'></i>
+                    <h3>Solved 300+ Problems</h3>
+                    <p>On platforms like LeetCode and HackerRank.</p>
+                </div>
+                <div class="glass-card achievement-card hidden delay-2">
+                    <i class='bx bx-medal'></i>
+                    <h3>Hackathon Finalist</h3>
+                    <p>Secured top 10 position in National Hackathon 2023.</p>
+                </div>
+                <div class="glass-card achievement-card hidden delay-3">
+                    <i class='bx bx-group'></i>
+                    <h3>Event Organizer</h3>
+                    <p>Organized university annual coding fest.</p>
+                </div>
+                <div class="glass-card achievement-card hidden delay-4">
+                    <i class='bx bxs-graduation'></i>
+                    <h3>Academic Excellence</h3>
+                    <p>Awarded Dean's list for academic performance.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="certifications" id="certifications">
+            <h2 class="heading hidden">My <span>Certifications</span></h2>
+            <div class="cert-grid">
+                <div class="glass-card cert-card hidden delay-1">
+                    <i class='bx bx-award cert-icon'></i>
+                    <div class="cert-info">
+                        <h3>Advanced SQL and Database Design</h3>
+                        <h4>Amazon Web Services (AWS)</h4>
+                    </div>
+                </div>
+                <div class="glass-card cert-card hidden delay-2">
+                    <i class='bx bx-award cert-icon'></i>
+                    <div class="cert-info">
+                        <h3>Programming in Java</h3>
+                        <h4>NPTEL (IIT Kharagpur)</h4>
+                    </div>
+                </div>
+                <div class="glass-card cert-card hidden delay-2">
+                    <i class='bx bx-award cert-icon'></i>
+                    <div class="cert-info">
+                        <h3>Microsoft Power BI</h3>
+                        <h4>AVNL Institute of Learning</h4>
+                    </div>
+                </div>
+                <div class="glass-card cert-card hidden delay-2">
+                    <i class='bx bx-award cert-icon'></i>
+                    <div class="cert-info">
+                        <h3>Introduction to Database Systems</h3>
+                        <h4>NPTEL (IIT Madras)</h4>
+                    </div>
+                </div>
+                <div class="glass-card cert-card hidden delay-2">
+                    <i class='bx bx-award cert-icon'></i>
+                    <div class="cert-info">
+                        <h3>Java (Basics)</h3>
+                        <h4>HackerRank</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <h2 class="heading hidden">Contact <span>Me</span></h2>
+            <div class="contact-container hidden delay-1">
+                <div class="contact-info glass-card">
+                    <h3>Let's Work Together</h3>
+                    <div class="contact-list">
+                        <div class="contact-list-item">
+                            <i class='bx bx-envelope'></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:johndoe@example.com">srksriramsglk@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-list-item">
+                            <i class='bx bx-phone'></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+916385049763">+91 6385049763</a>
+                            </div>
+                        </div>
+                        <div class="contact-list-item">
+                            <i class='bx bx-map'></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Chennai, India</p>
+                            </div>
+                        </div>
+                        <div class="contact-list-item">
+                            <i class='bx bxl-github'></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/sriram-kannanv">github.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-list-item">
+                            <i class='bx bxl-linkedin'></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="https://www.linkedin.com/in/sriram-kannanv/">linkedin.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container glass-card">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <a href="#home" class="logo">Portfolio<span>.</span></a>
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom"> 
+            <p>&copy; 2026 Sriram K. Built with HTML, CSS & JavaScript.</p>
+        </div>
+    </footer>
+
+    <a href="#" id="back-to-top"><i class='bx bx-up-arrow-alt'></i></a>
+    <script src="script.js"></script>
+</body>
+
+</html>
